@@ -54,7 +54,9 @@ const App = () => {
         borderRadius='16px'
         boxShadow='0 0 10px rgba(0, 0, 0, 0.15)'
         minHeight='400px'
-        bgcolor='#fcfcfc'
+        sx={{
+          bgcolor: "white !important",
+        }}
       >
         {activePage === 1 && (
           <Page1
