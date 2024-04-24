@@ -8,5 +8,5 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: transparent;
+    background-color: transparent !important;
 }
