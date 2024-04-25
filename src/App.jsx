@@ -40,7 +40,7 @@ const App = () => {
   const [formData, setFormData] = useState(initialData);
   const [activePage, setActivePage] = useState(1);
 
-  const vehicleQty = Math.floor(Math.random() * 40) + 1;
+  const vehicleQty = Math.floor(Math.random() * 30) + 11;
 
   return (
     <div className='container'>
