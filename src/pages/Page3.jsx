@@ -127,8 +127,8 @@ export const Page3 = ({ data, setData, qty, setPage }) => {
               Congrats!
             </Typography>
             <Typography textAlign='center'>
-              Our system found {qty}+. Get these deals emailed instantly with $0
-              Down Payment Option.
+              Our system found {qty}+ <b>{data.vehicleType}</b> . Get these
+              deals emailed instantly with $0 Down Payment Option.
             </Typography>
           </Box>
           <Box
